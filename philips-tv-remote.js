@@ -116,8 +116,10 @@ class philipsTvRemote extends LitElement {
                     ` : html`
                   <div class="grid-container-source">
                       <button class="btn_source ripple" @click=${() => this._select_app("com.netflix.ninja.MainActivity-com.netflix.ninja")}><ha-icon style="heigth: 70%; width: 70%;" icon="mdi:netflix"/></button>
-                      <button class="btn_source ripple" @click=${() => this._select_app("com.hbo.max.HboMaxActivity-com.hbo.hbonow")}><ha-icon icon="mdi:alpha-h"/></button>
-                      <button class="btn_source ripple" @click=${() => this._select_app("com.amazon.ignition.IgnitionActivity-com.amazon.amazonvideo")}><ha-icon icon="mdi:aws"/></button>
+                      <button class="btn_source ripple" @click=${() => this._select_app("com.canal.ui.tv.TvMainActivity-com.canal.android.canal")}><ha-icon icon="mdi:plus-thick"/></button>
+                      <button class="btn_source ripple" @click=${() => this._select_app("com.bamtechmedia.dominguez.main.MainActivity-com.disney.disneyplus")}><ha-icon icon="phu:disney-plus"/></button>
+                      <button class="btn_source ripple" @click=${() => this._select_app("com.amazon.ignition.IgnitionActivity-com.amazon.amazonvideo.livingroom")}><ha-icon icon="phu:prime-video"/></button>
+                      <button class="btn_source ripple" @click=${() => this._select_app("net.kodinerds.maven.kodi.Splash-net.kodinerds.maven.kodi")}><ha-icon icon="mdi:kodi"/></button>
                       <button class="btn_source ripple" @click=${() => this._select_app("com.google.android.apps.youtube.tv.activity.ShellActivity-com.google.android.youtube.tv")}><ha-icon icon="mdi:youtube"/></button>
                   </div>`}
 <!-- ################################# SOURCE BUTTONS END ################################# -->
